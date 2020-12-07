@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='eng'>
+  <head>
+    <title>Pic-Me-Up's</title>
+    <link rel='stylesheet' href='final_styles.css'>
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Open Sans">
+
+  </head>
+  <body>
+        <div class='btn-group-top'>
+            <button class='buttons' id='home'>Home</button>
+            <button class='buttons' id='me'>Help Me</button>
+            <button class='buttons' id='friend'>Help a Friend</button>
+            <button class='buttons' id='ed'>Learn More</button>
+            <button class='buttons' id='fun'>Pic-Me-Ups</button>
+        </div>
+        <script src='final_buttons.js'></script>
+            <h1 class='firstline' id='fun'>
+      Want a break from the information?
+    </h1>
+    <h2 class='subheadings' id='fun'>
+      Have some cute animals!
+    </h2>
+    <p>
+      All photos were found through Images and were marked for non-commercial reuse/creative commons licensed.
+    </p>
+<!-- Slideshow container
+
+I used code from w3 schools' slideshow tutorial code here https://www.w3schools.com/howto/howto_js_slideshow.asp
+and edited the images and captions to fit my theme-->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <!-- https://snappygoat.com/s/?q=bestof%3Aagriculture+animal+baby+cute+domestic+farm+looking+watch+little+pig+piggy+piglet+pork+small+sitting+watching+young+sit#f8d9755ac4dce9f1710e03908359627e6d1a9edb,0,440. -->
+    <img src="ducklings.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="dumbsquirrel.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 7</div>
+    <!-- https://pixabay.com/photos/horses-play-funny-animal-pony-1396651/ -->
+    <img src="horses.jpg" style="width:100%">
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">4 / 7</div>
+    <!-- image from https://pixabay.com/photos/kitten-pet-little-funny-cat-3644941/-->
+    <img src="kitten.jpg" style="width:100%">
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 7</div>
+    <!-- https://www.pikist.com/free-photo-ssbwk -->
+    <img src="pug.jpg" style="width:100%">
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 7</div>
+    <!-- https://www.pikist.com/free-photo-vimjj -->
+    <img src="puppy.jpg" style="width:100%">
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">7 / 7</div>
+    <!-- https://filmdaily.co/news/funny-animal-memes/ -->
+    <img src="squirrel.jpg" style="width:100%">
+  </div>
+</div>
+<script src='slideshow.js'></script>
+
+        <div class='footerBlock'>
+            <div class='btn-group-top'>
+                <button class='footerButtons' id='b_home'>Home</button>
+                <button class='footerButtons' id='b_me'>Help Me</button>
+                <button class='footerButtons'id='b_friend'>Help a Friend</button>
+                <button class='footerButtons'id='b_ed'>Learn More</button>
+                <button class='footerButtons' id='b_fun'>Pic-Me-Ups</button>
+            </div>
+            <script src='final_buttons.js'></script>
+        </div>
+  </body>

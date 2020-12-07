@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <title>Learning</title>
+        <link rel="stylesheet" href='final_styles.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    </head>
+
+    <body>
+        <div class='btn-group-top'>
+            <button class='buttons' id='home'>Home</button>
+            <button class='buttons' id='me'>Help Me</button>
+            <button class='buttons'id='friend'>Help a Friend</button>
+            <button class='buttons'id='ed'>Learn More</button>
+            <button class='buttons' id='fun'>Pic-Me-Ups</button>
+        </div>
+        <script src='final_buttons.js'></script>
+        <h1 class="firstline" id='ed'>
+            I'd like to learn more!
+        </h1>
+        <!--https://pixabay.com/illustrations/learning-hint-school-subject-3245793/-->
+        <img src='learning.jpg' alt='lightbulb' class='mainImage'>
+        <h2 class="subheadings" id='ed'>
+            Awesome!
+        </h2>
+        <div class='block' id='learn'>
+            <p class="ed topic">
+                VIDEOS:
+            </p>
+            <div class='video'>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/RcGyVTAoXEU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class='ed'>
+                Kelly McGonigal reframes the idea of stress and discusses how our perception of stress impacts our lives.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block'>
+            <div class='video'>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class='ed'>
+                Tim Urban comedically (yet nonetheless insightfully) challenges viewers to look deeper into what we are procrastinating on.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block' id='learn'>
+        <div class='video'>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/E3Cts45FNrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class='ed'>
+                The World Health Organization introduces a way to ground yourself in times of emotional turmoil.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block'>
+            <div class='video'>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/4KbSRXP0wik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class='ed'>
+                Hank Green discusses how different stressors impact our health.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='footerBlock'>
+            <div class='btn-group-top'>
+                <button class='footerButtons' id='b_home'>Home</button>
+                <button class='footerButtons' id='b_me'>Help Me</button>
+                <button class='footerButtons'id='b_friend'>Help a Friend</button>
+                <button class='footerButtons'id='b_ed'>Learn More</button>
+                <button class='footerButtons' id='b_fun'>Pic-Me-Ups</button>
+            </div>
+            <script src='final_buttons.js'></script>
+        </div>
+    </body>
+</html>

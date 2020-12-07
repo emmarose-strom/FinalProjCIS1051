@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href='final_styles.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    </head>
+
+    <body>
+        <div class='btn-group-top'>
+            <button class='buttons' id='home'>Home</button>
+            <button class='buttons' id='me'>Help Me</button>
+            <button class='buttons'id='friend'>Help a Friend</button>
+            <button class='buttons'id='ed'>Learn More</button>
+            <button class='buttons' id='fun'>Pic-Me-Ups</button>
+        </div>
+        <script src='final_buttons.js'></script>
+        <h1 class="firstline" id='home'>
+            So, you're stressed out?
+        </h1>
+        <div class='BigHomeBlock'>
+            <div class='homeImageBlock'>
+                <!--img from https://pxhere.com/en/photo/1586349 -->
+                <img src='stress.png' alt='q&a cartoon' class='SmallImage'>
+                <!--img from https://www.stuckinplastic.com/2018/03/best-friends-forever/ -->
+                <img src='friendship.jpg' alt='yoda and ackbar models' class='SmallImage'>
+                <!--img from https://pixabay.com/illustrations/learning-hint-school-subject-3245793/-->
+                <img src='learning.jpg' alt='lightbulb' class='SmallImage'>
+                <!--img from https://snappygoat.com/s/?q=bestof%3Aagriculture+animal+baby+cute+domestic+farm+looking+watch+little+pig+piggy+piglet+pork+small+sitting+watching+young+sit#f8d9755ac4dce9f1710e03908359627e6d1a9edb,0,440.-->
+                <img src="ducklings.jpg" alt='ducklings' class='SmallImage'>
+            </div>
+            <div class='homeBlock'>
+                <div class='smallBlock' id='home_self'>
+                    <p class='summary'>
+                        Learn more about managing your own stress through different coping strategies >>>
+                    </p>
+                    <script src='home_buttons.js'></script>
+                </div>
+                <div class='smallBlock' id='home_friend'>
+                    <p class='summary'>
+                        Look into new ideas on helping your friends during stressful times >>>
+                    </p>
+                </div>
+                <div class='smallBlock' id='home_ed'>
+                    <p class='summary'>
+                        Educate yourself on the impacts of stress and how to manage them >>>
+                    </p>
+                </div>
+                <div class='smallBlock' id='home_fun'>
+                    <p class='summary'>
+                        Take a break with some cute animals >>>
+                    </p>
+                </div>
+                <script src='home_buttons.js'></script>
+            </div>
+        </div>
+
+        <div class='block'>
+            <p>
+
+
+            </p>
+        </div>
+
+        <div class='block' id='homepage'>
+            <p class='home'>
+                Stress can play a positive or negative role in our lives depending on its severity.
+                While stress can motivate us to get to work (much like how it is now motivating me to do this project),
+                too much stress can also paralyze us or otherwise impair our daily functioning.
+            </p>
+        </div>
+        <div class='block'>
+            <p class='home'>
+                We want to share different ways to cope with stress and some of the more severe side effects of prolonged stress.
+            </p>
+        </div>
+        <div class="disclaimer">
+              DISCLAIMER: The information here is not a substitute for professional mental health services.
+        </div>
+        <div class='block'>
+            <p class='home'>
+                While many similar coping techniques may be taught or worked on in therapy, no site is a replacement for professional and personalized mental health care.
+            </p>
+        </div>
+        <div class='block' id='homepage'>
+            <p class='home'>
+                Additionally, therapy is not only for those in crisis; situational stressors can also be worked through with a therapist even if you consider yourself generally mentally healthy.
+            </p>
+        </div>
+        <div class='block'>
+            <p class='home'>
+                If you're ready to take the leap, <a href='https://www.psychologytoday.com/us/therapists'>find a therapist here!</a>
+            </p>
+        </div>
+        <div class='footerBlock'>
+            <div class='btn-group-top'>
+                <button class='footerButtons' id='b_home'>Home</button>
+                <button class='footerButtons' id='b_me'>Help Me</button>
+                <button class='footerButtons'id='b_friend'>Help a Friend</button>
+                <button class='footerButtons'id='b_ed'>Learn More</button>
+                <button class='footerButtons' id='b_fun'>Pic-Me-Ups</button>
+            </div>
+            <script src='final_buttons.js'></script>
+        </div>
+    </body>
+</html>

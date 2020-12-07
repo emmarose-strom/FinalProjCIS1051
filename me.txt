@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <title>Help Me</title>
+        <link rel="stylesheet" href='final_styles.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    </head>
+
+    <body>
+        <div class='btn-group-top'>
+            <button class='buttons' id='home'>Home</button>
+            <button class='buttons' id='me'>Help Me</button>
+            <button class='buttons'id='friend'>Help a Friend</button>
+            <button class='buttons'id='ed'>Learn More</button>
+            <button class='buttons' id='fun'>Pic-Me-Ups</button>
+        </div>
+        <script src='final_buttons.js'></script>
+        <h1 class="firstline" id='me'>
+            Help, I'm stressed!  What can I do?
+        </h1>
+        <!--img from https://pxhere.com/en/photo/1586349 -->
+        <img src='stress.png' alt='q&a cartoon' class='mainImage'>
+        <h2 class="subheadings" id='me'>
+            Here are some coping skills that can help:
+        </h2>
+        <div class='block' id='self'>
+            <p class='me topic' id='mind'>
+                MINDFULNESS:
+            </p>
+            <p class='me'>
+                Mindfulness is essentially bringing yourself back to the present moment and looking at yourself, your thoughts, your emotions, and your actions in a non-judgmental manner.
+                It involves simply observing what is happening right now in your head and, instead of letting your inner critic run free, merely allowing yourself to feel certain ways.</p>
+            <p class='me'>
+                Let's face it, we all can probably name multiple people who are going to judge us on one thing or another and in positive or negative ways (hey Professor, please give me an A)< - - DELETE LATER
+                Why add yourself to the list?</p>
+
+             <p class='me'>
+                 For example, many of us struggle with procrastination (hello, rapidly approaching deadlines).
+                 Instead of bullying ourselves and feeling guilty about not working, identify the feelings associated with whatever
+                 you've been putting off.  Working on a long project may make us feel tired, bored, or frustrated while a studying for a hard exam may make
+                 us feel stupid, small, or incompetent.  By observing these feelings without judgment or shame, we may be able to think of new ways to approach
+                 a problem to help overcome what's ultimately making us procrastinate.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <!-- I used w3school's tutorial code for scroll to top buttons https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+            <script src='backtotop.js'></script>
+
+        </div>
+        <div class='block'>
+            <p class='me topic'>
+                SELF-SOOTHING:
+            <p class = 'me'>
+                We all learn different self-soothing techniques based on what works for us.
+                As children, this may look like hugging a favorite stuffed animal, sucking a thumb, or wrapping up in a favorite blanket.
+            </p>
+            <p class = 'me'>
+                Some self-soothing habits we develop as adults, however, can be more harmful than helpful,
+                from online shopping to turning to drugs or alcohol.  Additionally, some self-soothing techniques
+                are ones we don't even realize we're developing, like bouncing a leg or tapping a pen whenever we feel restless.
+            </p>
+            <p class = 'me'>
+                While not all techniques work for everyone, here are some that could be helpful for you:
+            </p>
+            <ul class='me'>
+                <li class='me'>Popping bubble wrap/using a fidget toy</li>
+                <li class='me'>Having a hot cup of your favorite tea/coffee/hot cocoa (stay mindful of caffeine!)</li>
+                <li class='me'>Listening to your favorite music</li>
+                <li class='me'>Mentally scan your body and relax any muscles holding tension (ie the spot between your eyebrows or your shoulders)</li>
+            </ul>
+        </div>
+        </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        <div class='block' id='self'>
+            <p class='me topic'>
+                EXERCISE:
+            </p>
+            <p class='me'>
+                Exercise has long been proven to be a good stress reliever.  Aerobic exercises specifically have been shown to reduce stress hormones like cortisol and increase the production of endorphins (our mood elevators).
+                In that way, the physical stress of working out thus lowers the impacts of our mental stress.
+                While not everyone may have access to a gym membership, many simple exercises (jumping rope, walking, push-ups, etc) can be done in your own room.
+            </p>
+            <p class='me'>
+                Additionally, exercise can be tied into self-soothing and mindfulness in that it can help us become more aware of our bodies.
+                A lot of keeping proper form during different exercises requires coordination and awareness of our bodies and our surroundings.
+                Taking care of our bodies before, during, and after exercise can help reduce the physical symptoms of mental stress, whether it be muscle tension, dehydration, headaches, or fidgeting.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block'>
+            <p class='me topic'>
+                JOURNALING:
+            </p>
+            <p class='me'>
+                Another way to unload stress if working out isn't for you is to write out what's happening.
+                Even just recounting your day and listing out the things you did and didn't do can help unload the things that are stressing you out.
+            </p>
+            <p class='me'>
+                Additionally, if you notice any reoccuring thoughts of scenarios keeping you up at night, writing them down can help clear them from your head and allow you to sleep more peacefully.
+                A lack of sleep can worsen physical symptoms of stress and make us less likely to cope with our stress in healthy ways.  By journaling before bed, we can unload some of that professional/educational/emotional baggage
+                that we've been carrying with us through the day and focus more on what can relax us.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block' id='self'>
+            <p class='me topic'>
+                PLANNING:
+            </p>
+            <p class='me'>
+                Obviously, having a plan to tackle work (no matter how organized or disorganized) can help make tasks more manageable.  But planning doesn't always have to be just a list of tasks to cross off.
+                Planning work is important, but so is planning out time to do things you actually enjoy.  Blocking in some free time in between work time can help you stay organized and avoid burnout.
+            </p>
+            <p class='me'>
+                Now, this is not giving anyone permission to use extensive planning as a procrastination technique (yes, guilty as charged).
+                Additionally, just because you have a plan does not mean you need to stick to it to the letter.  Each of us requires a different level of discipline to get a task done.
+                But if you accidentally spend an extra 10 minutes reading or playing video games or scrolling through social media, then it doesn't have to be the end of the world.
+                Planning is as much decluttering as it is discipline.  Even simply clearing the space around the task and breaking things down into more manageable time blocks (whether you stick to them or not) can help reduce the stress surrounding the task at hand.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block'>
+            <p class='me topic'>
+                TRUSTING YOURSELF:
+            </p>
+            <p class='me'>
+                While we tackle whatever problem's at hand that's causing our stress, it's important to trust yourself and your abilities.  Of course, this is easier said than done depending on the work and your personal history.
+                But if, for example, you're an A-student with a big exam coming up, remind yourself of the previous exams that you successfully made it through and trust yourself to get it done this time.
+                If you're worried about a difficult conversation coming up, think of the times you survived similar situations and made it safely to the other side.
+            </p>
+            <p class='me'>
+                Obviously, trusting yourself can be difficult and, depending on the size of the issue at hand, can only go so far.  If you're struggling with stress due to a more serious relationship issue, the death of a loved one, or any kind of traumatic event, we encourage you to
+                <a href='https://www.psychologytoday.com/us/therapists'>reach out to a professional.</a>
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+
+        <h2 class='subheadings' id='me'>
+            If those are too difficult, here's an important self-care reminder:
+        </h2>
+        <div class='block' id='self'>
+            <p class='me topic'>
+                Half-*ssing it is okay:
+            </p>
+            <p class='me'>
+                Ultimately, something is generally better than nothing.  While perfectionism may help us exceed expectations, it can also paralyze us from taking action.
+                If working out is too much, then you can try getting out of bed and stretching.  If finishing the project in an insane all-nighter isn't for you, at least get the parts worth the most points in.
+                We all have limited time and energy, and so if prioritizing what's most important to you disappoints others or leads to a bad grade or doesn't land you the promotion, keep in mind that a) you're still trying your best and b) we cannot be perfect all the time, and that's ok.
+
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='footerBlock'>
+            <div class='btn-group-top'>
+                <button class='footerButtons' id='b_home'>Home</button>
+                <button class='footerButtons' id='b_me'>Help Me</button>
+                <button class='footerButtons'id='b_friend'>Help a Friend</button>
+                <button class='footerButtons'id='b_ed'>Learn More</button>
+                <button class='footerButtons' id='b_fun'>Pic-Me-Ups</button>
+            </div>
+            <script src='final_buttons.js'></script>
+        </div>
+    </body>
+</html>

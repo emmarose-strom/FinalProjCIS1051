@@ -1,0 +1,33 @@
+/* main buttons */
+document.querySelector('#home').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_home.html';
+}
+document.querySelector('#me').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_self.html';
+}
+document.querySelector('#friend').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_friend.html';
+}
+document.querySelector('#ed').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_ed.html';
+}
+document.querySelector('#fun').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/slideshow.html';
+}
+
+/* bottom buttons */
+document.querySelector('#b_home').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_home.html';
+}
+document.querySelector('#b_me').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_self.html';
+}
+document.querySelector('#b_friend').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_friend.html';
+}
+document.querySelector('#b_ed').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_ed.html';
+}
+document.querySelector('#b_fun').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/slideshow.html';
+}

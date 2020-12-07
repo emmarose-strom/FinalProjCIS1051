@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <title>You've got a friend in me :)</title>
+        <link rel="stylesheet" href='final_styles.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    </head>
+
+    <body>
+        <div class='btn-group-top'>
+            <button class='buttons' id='home'>Home</button>
+            <button class='buttons' id='me'>Help Me</button>
+            <button class='buttons'id='friend'>Help a Friend</button>
+            <button class='buttons'id='ed'>Learn More</button>
+            <button class='buttons' id='fun'>Pic-Me-Ups</button>
+        </div>
+        <script src='final_buttons.js'></script>
+        <h1 class="firstline" id='friend'>
+            I think my friend is struggling.  How can I help?
+        </h1>
+        <!--img from https://www.stuckinplastic.com/2018/03/best-friends-forever/ -->
+        <img src='friendship.jpg' alt='yoda and ackbar models' class='mainImage'>
+        <h2 class="subheadings" id='friend'>
+            Take care of yourself first!
+        </h2>
+        <h3 class='subheadings' id='friend'>
+            Once you're taken care of, here's what you can do:
+        </h3>
+        <div class='block' id='friend_text'>
+            <p class='friend topic'>
+                ACTIVE LISTENING:
+            </p>
+            <p class='friend'>
+                Many times, we don't necessarily want a solution to our problems, but rather someone to listen and understand.
+                Therefore, we can help support struggling friends through active listening.  This can take the form of asking relevant questions, repeating back what the person is saying, and making sure
+                there are no distractions (so things like putting away your phone or turning off the TV).  Of course, some people do genuinely want advice, so we can also ask directly if the person wants someone to listen
+                or if they want some help solving the problem at hand.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block'>
+            <p class='friend topic'>
+                MAKE PLANS:
+            </p>
+            <p class='friend'>
+                Another way we can help support our friends is to make plans.  While scheduling can be difficult depending on the stressor, even a short trip to get ice cream, a dinner date, or an afternoon walk can help
+                show your friend that you care.  Alternatively, you can schedule a time to message or give them a call to check in.  Anything you personally feel gives you and that person a sense of connection ultimately
+                can go a long way in supporting stressed friends.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block' id='friend_text'>
+            <p class='friend topic'>
+                OFFER A FAVOR:
+            </p>
+            <p class='friend'>
+                When stressed, we may end up having to prioritize different tasks over others.  One way to help de-stress a friend and let them know that you care is to lend a hand with household chores, tasks at work or school, or other small responsibilities.
+                For example, if a friend is stressed from a big move, you can offer to help pack/unpack boxex, clean up the kitchen, drive things over, etc.  The task can be as big or as small as you want; what matters is the thought behind it.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='block'>
+            <p class='friend topic'>
+                REFER TO A PROFESSIONAL:
+            </p>
+            <p class='friend'>
+                As friends, we all want to help wherever and however we can.  However, some jobs are too big for friends or even family to take on alone.  If your friend's stressors are impeding their daily functioning, causing them to turn to harmful behaviors to cope, or if they are expressing the
+                wish to harm themselves or others, do not hesitate to refer your friend to a professional, whether it be a doctor, a school psychologist/social worker, or in a true emergency, 911.  An angry friend is better than no friend.  While we don't want to anger anyone or jeopardize a relationship, when it comes to serious issues, it's better to involve outside help sooner rather than later.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <h2 class="disclaimer">
+            A NOTE ON BOUNDARIES:
+        </h2>
+        <div class='block' id='friend_text'>
+            <p class='friend'>
+                While we all want to help our friends, it's important to maintain our own personal boundaries.
+                If you feel that your boundaries are overstepped or that you're being stretched too thin by your friend, do not hesitate to stand up for your well being.
+                Nobody will look out for you better than yourself.  If your friend tries to guilt you into helping more or otherwise fails to respect your boundaries, please look out for yourself and reevaluate your relationship.
+                Don't be afraid to politely yet firmly communicate your needs.
+            </p>
+            <button onclick="topFunction()" id="TopBtn" title="Go to top">Back to Top</button>
+            <script src='backtotop.js'></script>
+        </div>
+        <div class='footerBlock'>
+            <div class='btn-group-top'>
+                <button class='footerButtons' id='b_home'>Home</button>
+                <button class='footerButtons' id='b_me'>Help Me</button>
+                <button class='footerButtons'id='b_friend'>Help a Friend</button>
+                <button class='footerButtons'id='b_ed'>Learn More</button>
+                <button class='footerButtons' id='b_fun'>Pic-Me-Ups</button>
+            </div>
+            <script src='final_buttons.js'></script>
+        </div>
+
+    </body>
+</html>

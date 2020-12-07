@@ -1,0 +1,13 @@
+/* homepage buttons */
+document.querySelector('#home_self').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_self.html';
+}
+document.querySelector('#home_friend').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_friend.html';
+}
+document.querySelector('#home_ed').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/final_ed.html';
+}
+document.querySelector('#home_fun').onclick = function(){
+    window.location.href = 'https://ad6324bc-2680-4c61-bea8-7f38c6bd9b0c-ide.cs50.xyz:8080/Final/slideshow.html';
+}
